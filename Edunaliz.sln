@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Edunaliz.Web", "Edunaliz.Web\Edunaliz.Web.csproj", "{B4A3DCB4-0BE2-4EA7-B48E-A501CB86E8C1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Edunaliz.Domain", "Edunaliz.Domain\Edunaliz.Domain.csproj", "{FA4A794C-2D8B-475B-9914-ABB869376BBE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DA714C37-37C6-4538-996F-6184BD83C87C}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4A3DCB4-0BE2-4EA7-B48E-A501CB86E8C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4A3DCB4-0BE2-4EA7-B48E-A501CB86E8C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4A3DCB4-0BE2-4EA7-B48E-A501CB86E8C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4A3DCB4-0BE2-4EA7-B48E-A501CB86E8C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA4A794C-2D8B-475B-9914-ABB869376BBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA4A794C-2D8B-475B-9914-ABB869376BBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA4A794C-2D8B-475B-9914-ABB869376BBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA4A794C-2D8B-475B-9914-ABB869376BBE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D42B3683-94ED-4153-9B7A-3F33AA332111}
+	EndGlobalSection
+EndGlobal
