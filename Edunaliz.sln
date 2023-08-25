@@ -3,14 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Edunaliz.Web", "Edunaliz.Web\Edunaliz.Web.csproj", "{B4A3DCB4-0BE2-4EA7-B48E-A501CB86E8C1}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Edunaliz.Domain", "Edunaliz.Domain\Edunaliz.Domain.csproj", "{FA4A794C-2D8B-475B-9914-ABB869376BBE}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DA714C37-37C6-4538-996F-6184BD83C87C}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
 	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Edunaliz.Domain", "src\Edunaliz.Domain\Edunaliz.Domain.csproj", "{8F901189-B144-4EA6-8203-5FBF83B64411}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Edunaliz.Service", "src\Edunaliz.Service\Edunaliz.Service.csproj", "{1603DAB3-F51C-4478-806C-1F60FF687D61}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Edunaliz.Web", "src\Edunaliz.Web\Edunaliz.Web.csproj", "{9C96BBC0-741B-4301-B2D3-057B20A65934}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Edunaliz.Data", "src\Edunaliz.Data\Edunaliz.Data.csproj", "{DA52255D-0245-4A01-AE94-48FEC0DCE659}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,14 +22,22 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B4A3DCB4-0BE2-4EA7-B48E-A501CB86E8C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B4A3DCB4-0BE2-4EA7-B48E-A501CB86E8C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B4A3DCB4-0BE2-4EA7-B48E-A501CB86E8C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B4A3DCB4-0BE2-4EA7-B48E-A501CB86E8C1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FA4A794C-2D8B-475B-9914-ABB869376BBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FA4A794C-2D8B-475B-9914-ABB869376BBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FA4A794C-2D8B-475B-9914-ABB869376BBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FA4A794C-2D8B-475B-9914-ABB869376BBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F901189-B144-4EA6-8203-5FBF83B64411}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F901189-B144-4EA6-8203-5FBF83B64411}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F901189-B144-4EA6-8203-5FBF83B64411}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F901189-B144-4EA6-8203-5FBF83B64411}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1603DAB3-F51C-4478-806C-1F60FF687D61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1603DAB3-F51C-4478-806C-1F60FF687D61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1603DAB3-F51C-4478-806C-1F60FF687D61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1603DAB3-F51C-4478-806C-1F60FF687D61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C96BBC0-741B-4301-B2D3-057B20A65934}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C96BBC0-741B-4301-B2D3-057B20A65934}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C96BBC0-741B-4301-B2D3-057B20A65934}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C96BBC0-741B-4301-B2D3-057B20A65934}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA52255D-0245-4A01-AE94-48FEC0DCE659}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA52255D-0245-4A01-AE94-48FEC0DCE659}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA52255D-0245-4A01-AE94-48FEC0DCE659}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA52255D-0245-4A01-AE94-48FEC0DCE659}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
