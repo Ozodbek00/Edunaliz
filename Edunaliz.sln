@@ -14,7 +14,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Edunaliz.Service", "src\Edu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Edunaliz.Web", "src\Edunaliz.Web\Edunaliz.Web.csproj", "{9C96BBC0-741B-4301-B2D3-057B20A65934}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Edunaliz.Data", "Edunaliz.Data\Edunaliz.Data.csproj", "{EF4E8CE1-A4EA-4E57-AC89-F788DC42F33B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Edunaliz.Data", "src\Edunaliz.Data\Edunaliz.Data.csproj", "{DA52255D-0245-4A01-AE94-48FEC0DCE659}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -34,10 +34,10 @@ Global
 		{9C96BBC0-741B-4301-B2D3-057B20A65934}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C96BBC0-741B-4301-B2D3-057B20A65934}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C96BBC0-741B-4301-B2D3-057B20A65934}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EF4E8CE1-A4EA-4E57-AC89-F788DC42F33B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EF4E8CE1-A4EA-4E57-AC89-F788DC42F33B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EF4E8CE1-A4EA-4E57-AC89-F788DC42F33B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EF4E8CE1-A4EA-4E57-AC89-F788DC42F33B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA52255D-0245-4A01-AE94-48FEC0DCE659}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA52255D-0245-4A01-AE94-48FEC0DCE659}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA52255D-0245-4A01-AE94-48FEC0DCE659}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA52255D-0245-4A01-AE94-48FEC0DCE659}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
